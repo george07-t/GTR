@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+    <Button
+        android:id="@+id/exit"
+        android:layout_gravity="left"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/back_button"
+        android:layout_margin="10dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/GTR"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_green_dark"
+            android:textIsSelectable="true" />
+    </ScrollView>
+
+</LinearLayout>
