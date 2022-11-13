@@ -28,7 +28,6 @@ public class ListViewSample extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_view);
-       // this.setRequestedOrientation(ActivityInfo.S);
        l1=(ListView) findViewById(R.id.list1);
        // sr1=(SearchView)findViewById(R.id.sr1);
         department =getResources().getStringArray(R.array.Department_Name);
