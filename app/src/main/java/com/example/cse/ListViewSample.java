@@ -29,9 +29,9 @@ public class ListViewSample extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_view);
        l1=(ListView) findViewById(R.id.list1);
-       // sr1=(SearchView)findViewById(R.id.sr1);
+
         department =getResources().getStringArray(R.array.Department_Name);
-        //adapter=new ArrayAdapter<>(ListViewSample.this,R.layout.list_sample,R.id.txt2,department);
+
         adapter=new ArrayAdapter<String>(  this,
                 android.R.layout.simple_list_item_1,department);
 
