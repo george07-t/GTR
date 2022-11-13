@@ -14,10 +14,30 @@
         android:theme="@style/Theme.CSE"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
+            android:name=".FeedbackActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpinnerExample"
+            android:exported="false" />
+        <activity
+            android:name=".GridViewExample"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewSample"
+            android:exported="false"
+            android:label="ListView" />
+        <activity
+            android:name=".calculator"
+            android:exported="false"
+            android:label="CALCULATOR" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
             android:configChanges="orientation|screenSize"
             android:exported="true">
             <intent-filter>

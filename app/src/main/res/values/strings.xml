@@ -45,4 +45,45 @@ Four main rivers constitute the river system of the Chittagong Hills and the adj
 None of the major rivers of Bangladesh originates within the country’s territory. The headwaters of the Surma are in India; the upper Padma rises in Nepal and the Jamuna in China, but they too reach Bangladesh across Indian territory. Thus, Bangladesh lacks full control over the flow of any of the streams that irrigate it. The construction of a barrage upstream at Farakka in West Bengal has led to the diversion of a considerable volume of water from the Ganges in India, and the flow to western Bangladesh is insufficient in the dry season, from November to April. The equitable distribution of the river’s waters has been since the 1970s a source of friction between India and Bangladesh.
 
     </string>
+    <string-array name="Department_Name">
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>ESE</item>
+        <item>ECE</item>
+        <item>MECHA</item>
+        <item>CIVIL</item>
+        <item>MTE</item>
+        <item>MSE</item>
+        <item>IEM</item>
+        <item>ChE</item>
+
+    </string-array>
+    <string-array name="DepartmentName">
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>ESE</item>
+        <item>ECE</item>
+        <item>MECHA</item>
+        <item>CIVIL</item>
+        <item>MTE</item>
+        <item>MSE</item>
+        <item>IEM</item>
+        <item>ChE</item>
+
+    </string-array>
+    <string-array name="DeptSelect">
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>ESE</item>
+        <item>ECE</item>
+        <item>MECHA</item>
+        <item>CIVIL</item>
+        <item>MTE</item>
+        <item>MSE</item>
+        <item>IEM</item>
+        <item>ChE</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

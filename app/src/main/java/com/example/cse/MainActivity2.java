@@ -49,5 +49,35 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
     }
+    @Override
+    public void onBackPressed() {
+
+        alart = new AlertDialog.Builder(MainActivity2.this);
+        alart.setTitle("ALERT");
+        alart.setMessage("Are you sure exit?");
+        alart.setIcon(R.drawable.interrogation);
+        alart.setPositiveButton("yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                finish();
+            }
+        });
+        alart.setNegativeButton("no", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Toast.makeText(MainActivity2.this, "App not exit yet", Toast.LENGTH_SHORT).show();
+            }
+        });
+        alart.setNeutralButton("cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Toast.makeText(MainActivity2.this, "Continue your work", Toast.LENGTH_SHORT).show();
+            }
+        });
+        AlertDialog al = alart.create();
+        al.show();
+
+
+    }
 
 }

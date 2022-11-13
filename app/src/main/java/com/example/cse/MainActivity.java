@@ -1,21 +1,23 @@
 package com.example.cse;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    private Button my_button,b2,b3,exit;
-    private TextView my_text,bt_text,t3;
-    private EditText ed1,ed2;
+    private Button my_button,exit,cal1,li1,gd1,sb1;
+    private TextView bt_text;
     private AlertDialog.Builder alart;
 
 
@@ -24,15 +26,27 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedIsntanceState);
         setContentView(R.layout.activity_main);
         my_button =(Button) findViewById(R.id.button2);
-        my_text=(TextView) findViewById(R.id.textView);
         bt_text=(TextView) findViewById(R.id.textView2);
-        b2=(Button) findViewById(R.id.b2);
-        b3=(Button) findViewById(R.id.b3) ;
-        exit=(Button) findViewById(R.id.exit) ;
-        ed1=(EditText) findViewById(R.id.num1);
-        ed2=(EditText) findViewById(R.id.num2);
-        t3=(TextView) findViewById(R.id.t3);
+        cal1=(Button)findViewById(R.id.cal1);
+        exit=(Button) findViewById(R.id.exit);
+        li1=(Button)findViewById(R.id.l1);
+        gd1=(Button)findViewById(R.id.gd1);
+        sb1=(Button)findViewById(R.id.sb1);
         bt_text.setVisibility(View.VISIBLE);
+        gd1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(MainActivity.this, GridViewExample.class);
+                startActivity(intent);
+            }
+        });
+        sb1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(MainActivity.this, SpinnerExample.class);
+                startActivity(intent);
+            }
+        });
 
         my_button.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -42,39 +56,24 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this,"WELCOME TO CSE",Toast.LENGTH_SHORT).show();
             }
         });
-        b2.setOnClickListener(new View.OnClickListener() {
+        cal1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                try {
-                    String num1=ed1.getText().toString();
-                    String num2=ed2.getText().toString();
-                    Double n1=Double.parseDouble(num1);
-                    Double n2=Double.parseDouble(num2);
-                    Double sum=n1+n2;
-                    t3.setText("SUM="+sum);
-                }catch (Exception e)
-                {
-                    Toast.makeText(MainActivity.this, "ENTER NUMBER TO SUM", Toast.LENGTH_SHORT).show();
-                }
-
+                Intent intent = new Intent(MainActivity.this,calculator.class);
+                startActivity(intent);
+                Toast.makeText(MainActivity.this, "CALCULATOR", Toast.LENGTH_SHORT).show();
             }
         });
-        b3.setOnClickListener(new View.OnClickListener() {
+        li1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                try {
-                    String num1=ed1.getText().toString();
-                    String num2=ed2.getText().toString();
-                    Double n1=Double.parseDouble(num1);
-                    Double n2=Double.parseDouble(num2);
-                    Double sum=n1-n2;
-                    t3.setText("SUB="+sum);
-                }catch (Exception e){
-                    Toast.makeText(MainActivity.this, "ENTER NUMBER SUB", Toast.LENGTH_SHORT).show();
-                }
-
+                Intent intent=new Intent(MainActivity.this, ListViewSample.class);
+                startActivity(intent);
+                Toast.makeText(MainActivity.this, "LISTVIEW", Toast.LENGTH_SHORT).show();
             }
         });
+
+
         exit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -105,6 +104,50 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater= getMenuInflater();
+        menuInflater.inflate(R.menu.menu_example,menu);
+
+
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+        if(item.getItemId()==R.id.f1)
+        {
+            Toast.makeText(MainActivity.this, "Setings is clicked", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        else if(item.getItemId()==R.id.f2)
+        {
+            Intent intent=new Intent(Intent.ACTION_SEND);
+            intent.setType("text/plain");
+            String subject="CSE APP";
+            String body="This app help for Developers. \n   com.example.cse";
+            intent.putExtra(Intent.EXTRA_SUBJECT,subject);
+            intent.putExtra(Intent.EXTRA_TEXT,body);
+            startActivity(Intent.createChooser(intent,"Share With"));
+            return true;
+        }
+        else if(item.getItemId()==R.id.f3)
+        {
+            Toast.makeText(MainActivity.this, "About us", Toast.LENGTH_SHORT).show();
+            Intent intent=new Intent(MainActivity.this,MainActivity2.class);
+            startActivity(intent);
+            return true;
+        }
+        else if(item.getItemId()==R.id.f4)
+        {
+            Toast.makeText(MainActivity.this, "Feedback", Toast.LENGTH_SHORT).show();
+            Intent intent=new Intent(MainActivity.this,FeedbackActivity.class);
+            startActivity(intent);
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override

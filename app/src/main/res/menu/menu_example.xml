@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/f1"
+        android:title="First menu"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+    <item
+        android:id="@+id/f2"
+        android:title="Second menu"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_share_24"/>
+    <item
+        android:id="@+id/f3"
+        android:title="About us"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/f4"
+        android:title="Feedback"
+        app:showAsAction="never"/>
+
+</menu>

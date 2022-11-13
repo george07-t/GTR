@@ -3,8 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_calculator.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_feedback.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_grid_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_list_view.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_listview.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_main.xml" value="0.2236480293308891" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_main2.xml" value="0.23238095238095238" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_main3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_spinner_example.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/fragment_c_s_e.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/fragment_e_e_e.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/list_sample.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/main_activity_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/sample_grid_view.xml" value="0.253125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/menu/listmenu.xml" value="0.253125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/menu/menu_example.xml" value="0.253125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.124" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.124" />
       </map>

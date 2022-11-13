@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".calculator">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULATOR"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="NUMBER 1"
+        android:inputType="number"
+        android:id="@+id/num1"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:hint="NUMBER 2"
+        android:id="@+id/num2"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="operation"
+        android:id="@+id/cal2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO"
+        android:id="@+id/b1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/t1"/>
+
+</LinearLayout>
