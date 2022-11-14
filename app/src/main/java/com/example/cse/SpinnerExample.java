@@ -1,8 +1,10 @@
 package com.example.cse;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -22,6 +24,10 @@ public class SpinnerExample extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spinner_example);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setLogo(R.mipmap.ic_launcher);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
         ssb1=(Button) findViewById(R.id.ssb1);
         sst1=(TextView) findViewById(R.id.sst1);
         dept=getResources().getStringArray(R.array.DeptSelect);
@@ -42,6 +48,17 @@ public class SpinnerExample extends AppCompatActivity {
             }
         });
     }
+
+/*    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+        if(item.getItemId()==android.R.id.home)
+        {
+            this.finish();
+        }
+        return super.onOptionsItemSelected(item);
+    }*/
+
     public void prog()
     {
         String val1=sp1.getSelectedItem().toString();

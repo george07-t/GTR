@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedIsntanceState){
         super.onCreate(savedIsntanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setLogo(R.mipmap.ic_launcher);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
         my_button =(Button) findViewById(R.id.button2);
         bt_text=(TextView) findViewById(R.id.textView2);
         cal1=(Button)findViewById(R.id.cal1);
