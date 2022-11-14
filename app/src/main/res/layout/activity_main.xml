@@ -56,6 +56,22 @@
         android:layout_height="wrap_content"
         android:text="spinner View"
         android:id="@+id/sb1"/>
+
+    <Button
+        android:id="@+id/cdv1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:background="@drawable/buttonshape"
+
+
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="CARDVIEW"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/exit"

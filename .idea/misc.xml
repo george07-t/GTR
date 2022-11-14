@@ -4,7 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/drawable/buttonshape.xml" value="0.1295" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/drawable/cairclebgblue.xml" value="0.1295" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/drawable/cirbggreen.xml" value="0.1295" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/drawable/circlebackgroundpink.xml" value="0.1295" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/drawable/samplebackground.xml" value="0.1295" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_calculator.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_card_view_example.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_feedback.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_grid_view.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_list_view.xml" value="0.24010416666666667" />

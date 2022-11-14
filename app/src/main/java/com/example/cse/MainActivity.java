@@ -16,7 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    private Button my_button,exit,cal1,li1,gd1,sb1;
+    private Button my_button,exit,cal1,li1,gd1,sb1,cdv1;
     private TextView bt_text;
     private AlertDialog.Builder alart;
 
@@ -35,7 +35,15 @@ public class MainActivity extends AppCompatActivity {
         li1=(Button)findViewById(R.id.l1);
         gd1=(Button)findViewById(R.id.gd1);
         sb1=(Button)findViewById(R.id.sb1);
+        cdv1=(Button) findViewById(R.id.cdv1);
         bt_text.setVisibility(View.VISIBLE);
+        cdv1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(MainActivity.this, CardViewExample.class);
+                startActivity(intent);
+            }
+        });
         gd1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
