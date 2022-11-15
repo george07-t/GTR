@@ -14,9 +14,15 @@
         android:theme="@style/Theme.CSE"
         tools:targetApi="31">
         <activity
+            android:name=".FileStorageExample"
+            android:exported="false" />
+        <activity
+            android:name=".DatabaseExample"
+            android:exported="false" />
+        <activity
             android:name=".CardViewExample"
             android:exported="false"
-            android:label="CardView Example"/>
+            android:label="CardView Example" />
         <activity
             android:name=".FeedbackActivity"
             android:exported="false" />

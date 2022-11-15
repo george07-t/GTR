@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:id="@+id/ll1"
+    tools:context=".DatabaseExample">
+<EditText
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:hint="USER ID"
+    android:layout_margin="20dp"
+    android:padding="10dp"
+    android:id="@+id/ded1"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="PASSWORD"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/ded2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="log in"
+        android:id="@+id/dbd1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="load"
+        android:id="@+id/dbd2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dt1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+</LinearLayout>

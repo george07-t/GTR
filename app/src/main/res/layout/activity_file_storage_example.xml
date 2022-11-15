@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:background="@color/purple_200"
+    tools:context=".FileStorageExample">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My SAVED DAIRY"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="30dp"/>
+
+    <EditText
+        android:id="@+id/fed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:hint="Dairy"
+        android:textSize="17sp"
+        android:gravity="start"
+        android:layout_margin="10dp"
+        android:lines="15"
+
+        android:padding="10dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fdb2"
+        android:text="Save"
+        android:textStyle="bold"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+</LinearLayout>

@@ -34,7 +34,7 @@ int progress;
     }
     public void dowork()
     {
-        for(progress=20;progress<=100;progress=progress+20) {
+        for(progress=50;progress<=100;progress=progress+50) {
             try {
                 Thread.sleep(1000);
                 pg2.setProgress(progress);

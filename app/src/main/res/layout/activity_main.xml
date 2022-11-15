@@ -72,6 +72,18 @@
         android:text="CARDVIEW"
         android:textColor="#FFFFFF"
         android:textSize="20dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Database"
+        android:id="@+id/db1"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="File Storage"
+        android:id="@+id/fdb1"
+        style="@style/Widget.AppCompat.Button.Colored"/>
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/exit"
