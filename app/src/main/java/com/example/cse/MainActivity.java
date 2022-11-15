@@ -16,7 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    private Button my_button,exit,cal1,li1,gd1,sb1,cdv1,db1,fdb1;
+    private Button my_button,exit,cal1,li1,gd1,sb1,cdv1,db1,fdb1,sdb1;
     private TextView bt_text;
     private AlertDialog.Builder alart;
 
@@ -38,7 +38,15 @@ public class MainActivity extends AppCompatActivity {
         cdv1=(Button) findViewById(R.id.cdv1);
         db1=(Button)findViewById(R.id.db1);
         fdb1=(Button)findViewById(R.id.fdb1);
+        sdb1=(Button)findViewById(R.id.sdb1);
         bt_text.setVisibility(View.VISIBLE);
+        sdb1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(MainActivity.this, SQLDataBaseExample.class);
+                startActivity(intent);
+            }
+        });
         fdb1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
