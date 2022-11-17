@@ -14,8 +14,19 @@
         android:theme="@style/Theme.CSE"
         tools:targetApi="31">
         <activity
-            android:name=".SQLDataBaseExample"
+            android:name=".SQLiteDataList"
             android:exported="false" />
+        <activity
+            android:name=".SignUpExample"
+            android:exported="false" />
+        <activity
+            android:name=".LogIn_LogOut"
+            android:exported="false"
+            android:label="User Login" />
+        <activity
+            android:name=".SQLDataBaseExample"
+            android:exported="false"
+            android:label="SQLite DataBase" />
         <activity
             android:name=".FileStorageExample"
             android:exported="false" />

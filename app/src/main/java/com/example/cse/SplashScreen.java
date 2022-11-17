@@ -46,7 +46,7 @@ int progress;
     }
     public void startApp()
     {
-        Intent intent=new Intent(SplashScreen.this,MainActivity.class);
+        Intent intent=new Intent(SplashScreen.this,LogIn_LogOut.class);
         startActivity(intent);
         finish();
     }

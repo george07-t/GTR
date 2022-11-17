@@ -20,5 +20,9 @@
         android:id="@+id/f4"
         android:title="Feedback"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/f5"
+        android:title="Log Out"
+        app:showAsAction="never"/>
 
 </menu>

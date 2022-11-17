@@ -8,6 +8,7 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/drawable/cirbggreen.xml" value="0.1295" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/drawable/circlebackgroundpink.xml" value="0.1295" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/drawable/samplebackground.xml" value="0.1295" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout-land/activity_list_view.xml" value="0.21516754850088182" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_calculator.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_card_view_example.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_database_example.xml" value="0.25416666666666665" />
@@ -16,12 +17,15 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_grid_view.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_list_view.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_listview.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_log_in_log_out.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_main.xml" value="0.2236480293308891" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_main2.xml" value="0.23238095238095238" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_main3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_sign_up_example.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_spinner_example.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_sqldata_base_example.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/activity_sqlite_data_list.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/fragment_c_s_e.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/fragment_e_e_e.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/CSE/app/src/main/res/layout/list_sample.xml" value="0.24010416666666667" />

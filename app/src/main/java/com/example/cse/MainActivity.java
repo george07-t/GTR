@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private Button my_button,exit,cal1,li1,gd1,sb1,cdv1,db1,fdb1,sdb1;
     private TextView bt_text;
     private AlertDialog.Builder alart;
+    private sessionmanager session;
 
 
     @Override
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         fdb1=(Button)findViewById(R.id.fdb1);
         sdb1=(Button)findViewById(R.id.sdb1);
         bt_text.setVisibility(View.VISIBLE);
+        session=new sessionmanager(getApplicationContext());
         sdb1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -181,6 +183,14 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this, "Feedback", Toast.LENGTH_SHORT).show();
             Intent intent=new Intent(MainActivity.this,FeedbackActivity.class);
             startActivity(intent);
+        }
+        else if(item.getItemId()==R.id.f5)
+        {
+            session.setLogin(false);
+            Intent intent= new Intent(MainActivity.this,LogIn_LogOut.class);
+            startActivity(intent);
+            Toast.makeText(getApplicationContext(), "Log Out Successfully", Toast.LENGTH_SHORT).show();
+            finish();
         }
         return super.onOptionsItemSelected(item);
     }
