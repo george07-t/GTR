@@ -90,6 +90,12 @@
         android:text="SQL DataBase"
         android:id="@+id/sdb1"
         style="@style/Widget.AppCompat.Button.Colored"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Screen navigation"
+        android:id="@+id/navib1"
+        style="@style/Widget.AppCompat.Button.Colored"/>
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/exit"

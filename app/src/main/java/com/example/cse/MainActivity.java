@@ -16,7 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    private Button my_button,exit,cal1,li1,gd1,sb1,cdv1,db1,fdb1,sdb1;
+    private Button my_button,exit,cal1,li1,gd1,sb1,cdv1,db1,fdb1,sdb1,navib1;
     private TextView bt_text;
     private AlertDialog.Builder alart;
     private sessionmanager session;
@@ -40,7 +40,15 @@ public class MainActivity extends AppCompatActivity {
         db1=(Button)findViewById(R.id.db1);
         fdb1=(Button)findViewById(R.id.fdb1);
         sdb1=(Button)findViewById(R.id.sdb1);
+        navib1=(Button)findViewById(R.id.navib1);
         bt_text.setVisibility(View.VISIBLE);
+        navib1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,SCREEN_NAVIGATION.class);
+                startActivity(intent);
+            }
+        });
         session=new sessionmanager(getApplicationContext());
         sdb1.setOnClickListener(new View.OnClickListener() {
             @Override
