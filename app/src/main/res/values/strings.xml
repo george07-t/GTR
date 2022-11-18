@@ -58,6 +58,32 @@ None of the major rivers of Bangladesh originates within the country’s territo
         <item>ChE</item>
 
     </string-array>
+    <string-array name="Department_List">
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>ESE</item>
+        <item>ECE</item>
+        <item>MECHA</item>
+        <item>CIVIL</item>
+        <item>MTE</item>
+        <item>MSE</item>
+        <item>IEM</item>
+        <item>ChE</item>
+
+    </string-array>
+    <string-array name="Department_Details">
+        <item>Welcome to CSE</item>
+        <item>Welcome to EEE</item>
+        <item>Welcome to ESE</item>
+        <item>Welcome to ECE</item>
+        <item>Welcome to MECHA</item>
+        <item>Welcome to CIVIL</item>
+        <item>Welcome to MTE</item>
+        <item>Welcome to MSE</item>
+        <item>Welcome to IEM</item>
+        <item>Welcome to ChE</item>
+
+    </string-array>
     <string-array name="DepartmentName">
         <item>CSE</item>
         <item>EEE</item>
